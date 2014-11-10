@@ -31,7 +31,7 @@ setup(
 
     keywords='packaging development',
     packages=['wheelbuilder'],
-    install_requires = ['requests', 'click'],
+    install_requires = ['requests', 'wheel', 'click'],
     entry_points={
         'console_scripts': [
             'wheelbuilder=wheelbuilder:main',
