@@ -1,0 +1,7 @@
+[global]
+with-libyaml=1
+
+[build_ext]
+define=YAML_DECLARE_STATIC
+library-dirs={lib}/Lib{arch}
+include-dirs={lib}/Include
